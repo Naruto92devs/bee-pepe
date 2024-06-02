@@ -196,6 +196,7 @@ body{
 
 .header .centr-menu a.links img {
     width: 100%;
+    transform: translateY(1vw);
 }
 
 .header .centr-menu a:nth-child(1) {
@@ -229,7 +230,7 @@ body{
 }
 
 .hero-section .madbee {
-    padding-top: 10vw;
+    padding-top: 8vw;
     width: 50%;
 }
 
@@ -280,7 +281,7 @@ body{
 
 .main {
     width: 20%;
-    margin-top: 0vw;
+    margin-top: 2.3vw;
 }
 
 /*---------------------------- about-us -----------------
@@ -1037,7 +1038,7 @@ body{
     }
     
     .header .centr-menu a.links {
-        width: 15%;
+        width: 8vw;
         transition: all .3s;
     }
     
@@ -1045,8 +1046,9 @@ body{
         transform: translateY(-1vw);
     }
     
-    .header .centr-menu .links img {
+    .header .centr-menu a.links img {
         width: 100%;
+        transform: translateY(2vw);
     }
     
     /* --------------------------------hero-section--------------
@@ -1076,8 +1078,8 @@ body{
     }
 
     .hero-section .main {
-      width: 38%;
-      margin-top: 5vw;
+      width: 28%;
+      margin-top: 4vw;
     }
 
     .hero-section .bee-image {
