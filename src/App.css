@@ -400,10 +400,12 @@ body{
     flex-direction: column;
     align-items: center;
     padding: 5vw 0;
+    position: relative;
 }
 
 .meme img {
     width: 65%;
+    z-index: 1;
 }
 
 .meme .bg {
@@ -411,6 +413,14 @@ body{
     position: absolute;
     z-index: -1;
 }
+
+.meme .gif3 {
+    position: absolute;
+    width: 20vw;
+    bottom: 0;
+    left: 5vw;
+    z-index: 10;
+  }
 
 /*-------------------------------- join-us -------------
 --------------------*/
@@ -477,12 +487,7 @@ body{
   width: 50%;
 }
 
-.tweets .gif3 {
-  position: absolute;
-  width: 20vw;
-  bottom: 0;
-  left: 5vw;
-}
+
 
 .tweets .content {
   width: 100%;
@@ -1119,7 +1124,7 @@ body{
   width: 100%;
 }
 
-.tweets .gif3 {
+.meme .gif3 {
   position: absolute;
   width: 20vw;
   bottom: 0;

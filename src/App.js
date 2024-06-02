@@ -16,12 +16,12 @@ import map1 from './images/roadmap 1.png';
 import group from './images/Group.png';
 import gif1 from './images/1.gif';
 // import gif2 from './images/2.gif';
-// import gif3 from './images/3.gif';
+import gif3 from './images/3.gif';
 import gif4 from './images/main.gif';
 import gif5 from './images/5.gif';
-import map_bee1 from './images/map-bee1.png';
-import map_bee2 from './images/map-bee2.png';
-import token_img from './images/token-img.png';
+// import map_bee1 from './images/map-bee1.png';
+// import map_bee2 from './images/map-bee2.png';
+// import token_img from './images/token-img.png';
 // import tweet from './images/TWEETS.png';
 // import tweet1 from './images/tweet.png';
 // import tweet2 from './images/tweet1.png';
@@ -170,6 +170,7 @@ function App() {
         
       </section> */}
       <section className='meme' id='meme'>
+      <img className="gif3" src={gif3} alt="logo" />
         <img src={meme} alt='logo' />
         <img src={meme_bg} alt='logo' className='bg' />
       </section>
